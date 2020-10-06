@@ -27,10 +27,10 @@ public class NoteServlet extends HttpServlet {
             String path = getServletContext().getRealPath("/WEB-INF/note.txt");           
                BufferedReader br = new BufferedReader(new FileReader(new File(path)));
 
-               while((br.readLine()) != null){
+              
                Note note = new Note( br.readLine(),  br.readLine() );
                request.setAttribute("note", note);
-            }
+            
               String edit = request.getParameter("edit");
                if( edit != null ){
                getServletContext().getRequestDispatcher("/WEB-INF/editnote.jsp").forward(request, response);
