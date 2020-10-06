@@ -49,6 +49,9 @@ public class NoteServlet extends HttpServlet {
        getServletContext().getRequestDispatcher("/WEB-INF/viewnote.jsp").forward(request, response);
       
     }
-
-
 }
+
+
+
+
+

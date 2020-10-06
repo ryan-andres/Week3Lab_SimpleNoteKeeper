@@ -17,10 +17,10 @@
         <h2>Edit Note</h2>
         
           <p><b>Title:</b> </p>
-          <input type ="text" name ="title" value ="${tInput}" >
+          <input type ="text" name ="title" >
         <br>
         <p><b>Contents:</b></p>
-        <textarea name ="content" rows = "10" cols = "25" value = "${cInput}"></textarea>
+        <textarea name ="content" rows = "10" cols = "25"></textarea>
           <input type ="submit" value ="Save">
         </form>
     </body>
