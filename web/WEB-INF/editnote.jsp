@@ -9,10 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Edit note here</title>
     </head>
     <body>
-        <form method ="post" action =" ">
+        <form method ="post" action ="">
         <h1>Simple Note Keeper</h1>
         <h2>Edit Note</h2>
         
